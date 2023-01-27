@@ -4,7 +4,7 @@
 : The Abbot (Abbacy) The abbot (male) had the highest authority with the abbey and had overall control of the administration. In both large and small monasteries delegation of power was required due to the amount of work and time required to run the organistion.
 
 - ***Arianism***
-: Arianism, in Christianity, the Christological (concerning the doctrine of Christ) position that Jesus, as the Son of God, was created by God. It was proposed early in the 4th century by the Alexandrian presbyter Arius and was popular throughout much of the Eastern and Western Roman empires, even after it was denounced as a heresy by the Council of Nicaea (325). ![Arianism](/image/Screen%20Shot%202023-01-26%20at%2023.18.00%20PM.png)
+: Arianism, in Christianity, the Christological (concerning the doctrine of Christ) position that Jesus, as the Son of God, was created by God. It was proposed early in the 4th century by the Alexandrian presbyter Arius and was popular throughout much of the Eastern and Western Roman empires, even after it was denounced as a heresy by the Council of Nicaea (325). ![Arianism](./image/Screen%20Shot%202023-01-26%20at%2023.18.00%20PM.png)
 
 - ***Asceticism***
 : The practice of the denial of physical or psychological desires in order to attain a spiritual ideal or goal. Hardly any religion has been without at least traces or some features of asceticism.
@@ -25,7 +25,7 @@
 : doctrine and dogma, the explication and officially acceptable version of a religious teaching. The development of doctrines and dogmas has significantly affected the traditions, institutions, and practices of the religions of the world. Doctrines and dogmas also have influenced and been influenced by the ongoing development of secular history, science, and philosophy.
 
 - ***Donatism***
-: a member of a Christian group in North Africa that broke with the Roman Catholics in 312 over the election of Caecilian as bishop of Carthage; the name derived from their leader, Donatus (d. c. 355). Historically, the Donatists belong to the tradition of early Christianity that produced the Montanist and Novatianist movements in Asia Minor and the Melitians in Egypt. They opposed state interference in church affairs, and, through the peasant warriors called Circumcellions, they had a program of social revolution combined with eschatological hopes. ![Doatism](/image/Screen%20Shot%202023-01-26%20at%2023.18.06%20PM.png)
+: a member of a Christian group in North Africa that broke with the Roman Catholics in 312 over the election of Caecilian as bishop of Carthage; the name derived from their leader, Donatus (d. c. 355). Historically, the Donatists belong to the tradition of early Christianity that produced the Montanist and Novatianist movements in Asia Minor and the Melitians in Egypt. They opposed state interference in church affairs, and, through the peasant warriors called Circumcellions, they had a program of social revolution combined with eschatological hopes. ![Doatism](./image/Screen%20Shot%202023-01-26%20at%2023.18.06%20PM.png)
 
 - ***Dowry***
 : In medieval and early modern Europe, the property that a bride brought to her marriage. The worth of the dowry generally correlated with the wealth or status or political connectedness of the bridegroom.  Even at the humblest levels, women would work to accumulate some property to serve as a dowry.  
@@ -84,7 +84,7 @@ Ordination: in Christian churches, a rite for the dedication and commissioning o
 : A religious ceremony that confers God’s grace on the recipient. At the Fourth Lateran Council in 1215, the sacraments of Western Christianity were fixed at seven: baptism, confirmation, communion, penance, marriage, extreme unction, and ordination. Because ordained priests (see secular clergy) administer the sacraments and because the sacraments are a route to salvation, the sacramental basis of medieval Christianity was a critical part of the institutional power of its Church.
 
 - ***Traditore***
-: ![Traditore](/image/Screen%20Shot%202023-01-26%20at%2023.18.06%20PM.png)
+: ![Traditore](./image/Screen%20Shot%202023-01-26%20at%2023.18.06%20PM.png)
 
 - ***Trial by combat***
 : In ordeal by combat, or ritual combat, the victor is said to win not by his own strength but because supernatural powers have intervened on the side of the right, as in the duel in the European Middle Ages in which the “judgment of God” was thought to determine the winner. If still alive after the combat, the loser might be hanged or burned for a criminal offense or have a hand cut off and property confiscated in civil actions.
