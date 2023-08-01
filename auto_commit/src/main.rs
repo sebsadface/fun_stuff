@@ -74,8 +74,8 @@ fn main() {
                     &["refs/heads/main:refs/heads/main"],
                     Some(&mut push_options),
                 ) {
-                    println!("Couldn't push to remote! Please check your internet!");
-                    continue;
+                    println!("Push failed, please check your internet connection.");
+                    break;
                 }
 
                 println!("Commit and push successful. #{}", _i);
