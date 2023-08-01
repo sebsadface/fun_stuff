@@ -70,14 +70,15 @@ fn main() {
                 let mut push_options = PushOptions::new();
                 push_options.remote_callbacks(callbacks);
 
-                remote
-                    .push(
-                        &["refs/heads/main:refs/heads/main"],
-                        Some(&mut push_options),
-                    )
-                    .unwrap();
+                if let Err(_) = remote.push(
+                    &["refs/heads/main:refs/heads/main"],
+                    Some(&mut push_options),
+                ) {
+                    println!("Couldn't push to remote! Please check your internet!");
+                    continue;
+                }
 
-                println!("Commit and push successful.");
+                println!("Commit and push successful. #{}", _i);
             }
 
             commit_hour = rng.gen_range(0..24);
