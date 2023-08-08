@@ -21,7 +21,7 @@ fn main() {
 
     loop {
         let current_hour = Utc::now().hour();
-        if current_hour == commit_hour {
+        if current_hour >= commit_hour - 1 && current_hour <= commit_hour + 1 {
             println!("It's time to commit.");
             let repo = match Repository::open(&repo_path) {
                 Ok(repo) => repo,
@@ -70,19 +70,30 @@ fn main() {
                 let mut push_options = PushOptions::new();
                 push_options.remote_callbacks(callbacks);
 
-                if let Err(_) = remote.push(
+                let push_result = remote.push(
                     &["refs/heads/main:refs/heads/main"],
                     Some(&mut push_options),
-                ) {
-                    println!("Push failed, please check your internet connection.");
-                    break;
+                );
+
+                match push_result {
+                    Err(_e) => {
+                        println!("Push failed, please check your internet connection.");
+                        commit_hour += 1;
+                        println!("I will try to push again at hour: {}", commit_hour);
+                        break;
+                    }
+                    _ => {}
                 }
 
                 println!("Commit and push successful. #{}", _i);
             }
 
-            commit_hour = rng.gen_range(0..24);
-            println!("Next commit will happen at hour: {}", commit_hour);
+            if commit_hour != current_hour + 1 {
+                commit_hour = rng.gen_range(commit_hour..24);
+                println!("Next commit will happen at hour: {}", commit_hour);
+            } else {
+                println!("Next commit will happen in an hour!!");
+            }
         }
 
         thread::sleep(time::Duration::from_secs(3600));
